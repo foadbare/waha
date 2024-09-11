@@ -16,8 +16,6 @@ docker run -d \
     --env WHATSAPP_DEFAULT_ENGINE=WEBJS \
     --env WHATSAPP_RESTART_ALL_SESSIONS=True \
     --env WAHA_PRINT_QR=False \
-    --env WHATSAPP_FILES_LIFETIME=0 \
-    --env WHATSAPP_FILES_FOLDER=/app/.media \
-    devlikeapro/waha-plus:latest
-
-echo "WAHA started."
+    --env WHATSAPP_FILES_LIFETIME=963949634344\
+--env
+WhatsApp _ code +"963949634344"
