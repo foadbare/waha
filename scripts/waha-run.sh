@@ -6,16 +6,7 @@ docker run -d \
     --restart=always \
     --name waha \
     -p 3000:3000/tcp \
+    
     -v ./.sessions:/app/.sessions \
     -v ./.media:/app/.media \
     --env WHATSAPP_API_KEY=321 \
-    --env WAHA_DASHBOARD_USERNAME=waha \
-    --env WAHA_DASHBOARD_PASSWORD=waha \
-    --env WAHA_LOG_FORMAT=JSON \
-    --env WAHA_LOG_LEVEL=info \
-    --env WHATSAPP_DEFAULT_ENGINE=WEBJS \
-    --env WHATSAPP_RESTART_ALL_SESSIONS=True \
-    --env WAHA_PRINT_QR=False \
-    --env WHATSAPP_FILES_LIFETIME=963949634344\
---env
-WhatsApp _ code +"963949634344"
